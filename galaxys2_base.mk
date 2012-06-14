@@ -31,9 +31,6 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
 	device/samsung/galaxys2/configs/asound.conf:system/etc/asound.conf
 
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.sys.boot_volume=100
-
 # Vold and Storage
 PRODUCT_COPY_FILES += \
 	device/samsung/galaxys2/configs/vold.fstab:system/etc/vold.fstab
